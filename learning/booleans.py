@@ -1,3 +1,70 @@
+#video notes 
+
+
+#if function
+
+# if True: 
+#     print('conditional was true')
+
+# if False:
+#     print('conditional was True')
+
+#     language = 'Python'
+
+#     language == 'Pyton' #double equal sign test for equality
+#     print('conditional was True')
+
+
+#Comparisons:
+    #Equal :                 ==
+    #Not Equal:              !=
+    #Greater Than:           >
+    #Less Than:              <
+    #Greater or Equal:       >=
+    #Less than or Equal:     <=
+    #Object Identity:        is
+
+language = 'Java'
+
+if language == 'Python':
+    print('Language is Python')
+elif language == 'Java' :
+    print('language is Java')
+elif language == 'JavaScript':
+    print("language is JavaScript")
+
+else:
+    print('no match')
+
+user = 'Admin'
+logged_in=False
+
+if not logged_in:
+    print( 'Please log in.')
+if user == 'Admin' or logged_in:
+    print('Admin Page')
+else: 
+    print('Bad Creds')
+
+a = [1, 2, 3 ]
+b=a
+
+print(id(a))
+print(id(b))
+print (a is b)
+
+#False Values
+#None
+#zero of any numeric type 0
+#Any empty sequence. Examples: '', (), []
+#Any empty mapping. For Example, {}
+
+condition = 10
+
+if condition: 
+    print('Evaluated to True')
+else:
+    print('Evaluated to False')
 
 ############################################################################
 # Boolean expressions are statements that can be either True or False. In Python, the boolean data type is represented by the built-in data type bool.
@@ -48,15 +115,15 @@
 # and: Returns True if both statements are true.
 
 # x = 5
-# print(x > 3 and x < 10)  # True
+# # print(x > 3 and x < 10)  # True
 # age = 18
 # print(age >= 18 and age < 65)  # True
 # print(age < 18 or age >= 65)   # False
 # or: Returns True if at least one of the statements is true.
 
-# x = 5
-# print(x > 3 or x > 10)  # True
-# not: Reverse the result, returns False if the result is true.
+# # x = 5
+# # print(x > 3 or x > 10)  # True
+# # not: Reverse the result, returns False if the result is true.
 
 # x = 5
 # print(not(x > 3 and x < 10))  # False
