@@ -1,0 +1,116 @@
+# while loops = execute some code WHILE some condition remains true
+
+# name = input("Enter your name: ")
+
+# #infinite loops are bad
+# #iteration-looping over something
+# if name == "" :
+#     print("you did not input your name.")
+
+# print(f"Hello {name}")
+
+
+# age= int(input("Enter your age."))
+
+# while age<0 :
+#     print("Age can't be negative")
+#     age= int(input("Enter your age : ")) #allows loop to break since it forced a true response
+# print(f"You are {age} years old.")
+
+
+# food = input("Enter a food youb like :")
+
+# while not food == "q" : #while food isnt q, run the loop forever 
+#     print(f"You like {food}")
+#     food = input ("Enter another food you like (q to quit):")  
+
+# print("bye")
+
+# num = int(input("Enter a number between 1-10"))
+
+# while num< 1 or num>10 :
+#     print(f"{num } is not valid")
+#     num = int(input("Enter a number between 1-10 : "))
+# print(f"Your number is: {num}")
+
+########## FOR LOOPS ################
+
+#for loops = execute a block of code a fixed number of times
+           # you can iterate over a range, string, sequence, etc. 
+
+# for x in range(1,11):
+#     print(x)
+# print("Happy New Year!")
+
+# for x in reversed (range(1,11)):
+#     print(x)
+# print("Happy New Year!")
+
+# for x in range(1,11,2): #skips every second number
+#     print(x)
+
+
+# credit_card= "1234-5678-9012-3456"  
+
+# for x in credit_card: # prints eevry digit individaully in the credit card number
+#     print(x)
+
+#SKIS OVER VALUE
+# for x in range(1,21):
+#     if x == 13  :
+#         continue
+#     else: 
+#         print(x)
+
+# for x in range(1,21):
+#     if x == 13 or x==15 or x==20 :
+#         continue
+#     else: 
+#         print(x)
+
+
+# for x in range(1,21):
+#     if x == 13 :
+#        break  # break function breaks the program. Here it would break at 13 
+#     else: 
+#         print(x)
+    
+
+
+#creat a list of famous horror movie characters
+
+# horror_characters=["Freddy Krueger", "Jason Vourhees", "Micheal Myers", "Pennywise", "Chucky"]
+# #iterate through the list and print each character 
+
+# for character in horror_characters: 
+#     if character == "Jason Vourhees" :
+#          continue 
+# print(character)
+
+# if character  == "Micheal Myers" :
+#      character == "Dracula"
+# print(character)
+
+# if character == "Freddy Krueger" :
+#      character== "Art the Clown"
+# print(character)
+
+#create a list of famous horror movies or your fav horror movies
+#iterate through the list and if a certain movie is found is your least favorite movie, then break the loop
+#print out the rest of the movies 
+#next replace one of the movies with a movie that yu like
+
+horror_movies= ["It", "Seed of Chucky", "Insisdious", "The Conjuring"]
+
+# for x in horror_movies:
+#      print(x)
+
+for x in horror_movies:
+    if x == "Seed of Chucky":
+        continue
+    print(x)
+
+for x in horror_movies: 
+    if x == "Seed of Chucky" :
+        x == "Smile 2"
+    print(x)
